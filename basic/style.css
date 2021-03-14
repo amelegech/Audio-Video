@@ -1,0 +1,71 @@
+body{
+    background-color:rgb(4, 52, 80);
+   
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    color: mintcream;
+}
+.audio-main{
+    display: flex;
+    background-color: rgb(6, 71, 80);
+
+}
+.audio-eth1{
+    flex: 1;
+    border: cadetblue solid 10px;
+    padding: 5px ;
+}
+audio{
+    display: grid;
+    padding: 5px;
+}
+#ethImg{
+    display: flex;
+    height: 400px;
+    width: 400px;
+   border: rgb(150, 179, 179) 15px;
+   padding: 10px;
+}
+.video-container{
+    background-color:rgb(6, 71, 80);
+    margin-top: 15px;
+    border: rgb(21, 145, 128) 15px solid;
+    padding: 15px;
+   
+}
+video{
+    height: 300px;
+    width: 500px;
+    margin: auto;
+    display: flex;
+}
+.addOn{
+    background-image: url('http://source.unsplash.com/random/150x150');
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top:5px;
+    left: 5px;
+    cursor: pointer;
+}
+.box{
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin: 10px;
+    border:3px salmon solid ;
+    background-color: seashell;
+
+}
+.hold-pull{
+    border: solid purple;
+}
+
+.hovered{
+    background-color:rgb(250, 152, 141);
+    border-style: dashed;
+}
+.invisible{
+    display: none;
+}
