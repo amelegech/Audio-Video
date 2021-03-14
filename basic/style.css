@@ -9,16 +9,23 @@ body{
 .audio-main{
     display: flex;
     background-color: rgb(6, 71, 80);
+   
 
 }
 .audio-eth1{
     flex: 1;
     border: cadetblue solid 10px;
     padding: 5px ;
+    overflow: scroll;
+    border: 1px solid steelblue;
+    width: 400px;
+  height: 400px;
 }
 audio{
     display: grid;
     padding: 5px;
+    
+    
 }
 #ethImg{
     display: flex;
